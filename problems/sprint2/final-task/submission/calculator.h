@@ -5,6 +5,7 @@
 using Number = double;
 
 class Calculator {
+
 public:
     Number GetNumber() const;
     void Set(Number n);
@@ -14,6 +15,7 @@ public:
     void Mul(Number n);
     void Pow(Number n);
     std::string GetNumberRepr() const;
+
 private:
     Number active_number_ = 0.0;
 };
